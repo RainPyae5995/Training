@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Slab:wght@300&family=Nunito:wght@300&family=Oswald:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:ital,wght@0,300;1,200&family=Raleway&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(37, 37, 72);
+}
+
+hgroup {
+    text-align: center;
+    line-height: 65px;
+    letter-spacing: 2px;
+}
+
+hgroup h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+hgroup h3 {
+    text-transform: uppercase;
+    color: rgb(70, 81, 137);
+}
+
+.images {
+    width: 100%;
+    height: 150px;
+    /* background-color: blueviolet; */
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.images .pct {
+    width: 90px;
+    height: 90px;
+
+
+    /* border-radius: 50%;
+    object-fit: cover;
+
+    margin: 0px 13px;
+    padding: 2px 2px; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images .pct .hana {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.images .pct .hana img {
+    width: 88px;
+    height: 88px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    margin: 0px 11px;
+    padding: 2px 2px;
+}
+
+.images .hana h3 {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+form{
+    width: 100%;
+    height: 350px;
+    /* background-color: blanchedalmond; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form .inputbox{
+    width: 100%;
+    height: 350px;
+    /* background-color: blanchedalmond; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inputbox .content {
+    width: 300px;
+    height: 40px;
+    /* background-color: blue; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 1px solid #f2f5f380;
+    border-radius: 30px;
+}
+
+.inputbox .content i {
+    font-size: 1.7rem;
+    color: #f2f5f380;
+}
+
+.inputbox .content input {
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border: none;
+
+    background-color: rgb(37, 37, 72);
+
+}
+
+.inputbox .content input::placeholder {
+    font-size: 1.2rem;
+    color: #f2f5f390;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form .signup input {
+    align-items: center;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 8px 100px;
+    background-color: coral;
+    border-radius: 30px;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+    border: none;
+}
+
+footer .fgroup {
+    padding: 10px 0px;
+}
+
+footer .fgroup small {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0px 5px;
+    color: rgb(16, 15, 15);
+}
+
+footer .fgroup b {
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-style: italic;
+    color: coral;
+}
+
+@media (max-width:601px){
+    body{
+        width: 100%;
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .images{
+        width: 100%;
+        height: 150px;
+        margin-right: 15px;
+    }
+
+    .inputbox{
+        width: 100%;
+        height: 400px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100px;
+    }
+}
